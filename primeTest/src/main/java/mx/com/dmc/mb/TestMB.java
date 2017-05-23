@@ -10,8 +10,8 @@ import javax.faces.bean.ViewScoped;
 @ViewScoped
 public class TestMB {
 
-	private ArrayList<Usuario> lista;
-	private Usuario usuarioSeleccionado;
+	private ArrayList<Usuario> lista;	//Lista de usuarios para mostrar en table
+	private Usuario usuarioSeleccionado; //Objeto Usuario que se setea cuando se seleccciona uno
 	
 	private String firstname;
 	private String lastname;
