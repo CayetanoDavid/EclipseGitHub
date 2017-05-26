@@ -13,8 +13,8 @@ public class TestMB {
 	private ArrayList<Usuario> lista;	//Lista de usuarios para mostrar en table
 	private Usuario usuarioSeleccionado; //Objeto Usuario que se setea cuando se seleccciona uno
 	
-	private String firstname;
-	private String lastname;
+	private String firstname; //NOMBRE PRIMARIO
+	private String lastname; //ULTIMO NOMRE
 	
 	public TestMB(){
 		System.out.println("Constructor TestMB");
