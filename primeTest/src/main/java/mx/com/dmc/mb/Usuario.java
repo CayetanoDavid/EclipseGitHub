@@ -5,11 +5,11 @@ public class Usuario {
 	private String nombre;
 	private String apellido;
 	
-	public Usuario(){
+	public Usuario(){	//CONSTRUCTOR POR DEFAULT
 		
 	}
 
-	public Usuario(String nombre, String apellido) {
+	public Usuario(String nombre, String apellido) {	//CONSTRUCTOR CON CAMPOS
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
